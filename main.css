@@ -1,0 +1,250 @@
+ #header {
+                  background-color:#72be58; 
+                /*color:white;
+                text-align:center;
+                align-content:center;*/
+                /*padding:5px;*/
+                /*position: fixed;*/
+                /*text-align:center;*/
+                /*width:100%;*/
+                 position: fixed;
+                 top: 0px;
+                 display: block;
+                 margin-left: -9px;
+                 margin-right: 24px !important;
+                /*width: 945px;*/
+                /*margin: 0;*/
+                position: fixed; top: 0px; display: block;
+            }
+        .stickybar {
+            display: none;
+            margin-left: -5000px !important;
+            margin-right: -5000px !important;
+            padding-left: 5000px !important;
+            padding-right: 5000px !important;
+            background-color: #ffff;
+            z-index: 1000;
+            height: 50px;
+            -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
+            box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
+            border-bottom: 3px solid #72be58;
+        }
+
+        .stickytitle {
+            margin-left: -9px;
+            margin-right: 24px !important;
+        }
+        .stickytitle h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    line-height: normal;
+    font-size: 30px;
+    margin-top: 7px;
+}
+        .stickytitle span.slogo a {
+    width: 32px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: inline-block;
+    background-position: center;
+}
+        .slogo {
+    margin-top: 5px;
+}
+        .stickytitle h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 173%;
+    line-height: normal;
+    font-size: 30px;
+    margin-top: 7px;
+}
+            #nav {
+                line-height:30px;
+                background-color:#eeeeee;
+                height:300px;
+                width:100px;
+                float:left;
+                padding:5px;	      
+            }
+            #section {
+                width:650px;
+                float:none;
+                padding:10px;
+
+            }
+            #footer {
+                
+                /*background-color:#72be58; 
+                color:white;
+                text-align:center;
+                text-align:center;
+                width:100%;
+                bottom:0;
+                position: fixed;*/
+
+                position: fixed;
+                /*height: 45px;*/
+                bottom: 0;
+                width: 100%;
+                background-color:#72be58; 
+                padding-top: 10px;
+                text-align: center;
+                 
+            }
+.button {
+	font-family: Arial;
+  color: #ffffff;
+  /*font-size: 20px;*/
+  padding: 3px;
+  background: #71be58;
+  text-decoration: none;
+}
+.button:hover {
+	background: #93e077;
+  text-decoration: none;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.textbox { 
+    /*background: transparent url(img/input-text-8.png) repeat-x;*/
+    border: 1px solid #999; 
+    outline:0; 
+    height:25px; 
+    /*width: 275px;*/ 
+    font-size:medium;
+  } 
+
+.mGrid {   
+    width: 100%;   
+    background-color: #fff;   
+    margin: 5px 0 10px 0;   
+    border: solid 1px #525252;   
+    border-collapse:collapse;   
+}  
+.mGrid td {   
+    padding: 2px;   
+    border: solid 1px #c1c1c1;   
+    color: #717171;   
+} 
+.mGrid tr:hover,tr.alt:hover
+{
+    background: #f7dcdf!important;
+}
+
+.mGrid tr:nth-child(even) {   
+    background-color:#ffffff;
+}  
+.mGrid tr:nth-child(odd)
+    {
+        background-color:#95ce82;
+    }
+
+
+.mGrid th {   
+    padding: 4px 2px;   
+    color: #fff;   
+    background: #72be58 url(grd_head.png) repeat-x top;   
+    border-left: solid 1px #525252;   
+    font-size: 0.9em;   
+}  
+.mGrid .alt { background: #fcfcfc url(grd_alt.png) repeat-x top; }  
+.mGrid .pgr { background: #424242 url(grd_pgr.png) repeat-x top; }  
+.mGrid .pgr table { margin: 5px 0; }  
+.mGrid .pgr td {   
+    border-width: 0;   
+    padding: 0 6px;   
+    border-left: solid 1px #666;   
+    font-weight: bold;   
+    color: #fff;   
+    line-height: 12px;   
+ }     
+.mGrid .pgr a { color: #666; text-decoration: none; }  
+.mGrid .pgr a:hover { color: #000; text-decoration: none; }
+
+
+.info
+{
+	text-align:left;
+	padding: 10px 10px;
+	display: block;
+	margin: 20px 3% 0 3%;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #B5E5EF url(../images/icn_alert_info.gif) no-repeat;
+	background-position: 10px 10px;
+	border: 1px solid #77BACE;
+	color: #082B33;
+	text-indent: 40px;
+	font-size: 14px;
+}
+.warn
+{
+	text-align:left;
+	padding: 10px 10px;
+	display: block;
+	margin: 20px 3% 0 3%;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #F5F3BA url(../images/icn_alert_warning.png) no-repeat;
+	background-position: 10px 10px;
+	border: 1px solid #C7A20D;
+	color: #796616;
+	text-indent: 40px;
+	font-size: 14px;
+	}
+	
+.success
+{
+	text-align:left;
+	padding: 10px 10px;
+	display: block;
+	margin: 20px 3% 0 3%;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #E2F6C5 url(../images/icn_alert_success.png) no-repeat;
+	background-position: 10px 10px;
+	border: 1px solid #79C20D;
+	color: #32510F;
+	text-indent: 40px;
+	font-size: 14px;
+	}
+	.errorMessage
+{
+	text-align:left;
+	padding: 10px 10px;
+	display: block;
+	margin: 20px 3% 0 3%;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #F3D9D9 url(../images/icn_alert_error.png) no-repeat;
+	background-position: 10px 10px;
+	border: 1px solid #D20009;
+	color: #7B040F;
+	text-indent: 40px;
+	font-size: 14px;
+}
+.closeImage
+{
+    cursor: pointer;
+}

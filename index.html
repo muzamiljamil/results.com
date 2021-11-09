@@ -1,0 +1,122 @@
+
+<!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml"> <head><title>
+BISE :: Bahawalpur
+</title><link rel="shortcut icon" href="images/biseMono.ico" /> <script src="" type="text/javascript"></script> <script src="" type="text/javascript"></script> <script src="" type="text/javascript"></script> <script src="" type="text/javascript"></script> <script src="" type="text/javascript"></script> <script src=""
+type="text/javascript"></script> <script src=""
+type="text/javascript"></script> <script src="" type="text/javascript"></script> <script src="" type="text/javascript"></script> <script src="" type="text/javascript"></script> <script src="" type="text/javascript"></script> <script src="" type="text/javascript"></script> <script src="" type="text/javascript"></script> <script src="" type="text/javascript"></script> <script type="text/javascript" src=""></script> <script src="vendor/jquery-library.js"></script> <script src="js1/gmp.js"></script> <script src="js1/owl.carousel.min.js"></script> <script src="js1/prettyPhoto.js"></script> <script src="countdown.js"></script> <script src="js1/moment.js"></script> <script src="js1/gmap3.js"></script> <script src="main.js"></script> <style type="text/css">
+.loader {
+position: fixed;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+z-index: 9999;
+background: url('images/loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+</style> <script type="text/javascript" src="MessageBox.js"></script> <link rel="stylesheet" type="text/css" href="header.css" /><link rel="stylesheet" type="text/css" href="main.css" /><link rel="stylesheet" type="text/css" href="main-green.css" /><link rel="stylesheet" type="text/css" href="UpdatePanel.css" /> <script type="text/javascript"> <!--
+if (self != top) {
+top.location.href = self.location; href;
+}
+//--> </script> <script type="text/javascript" language="javascript">
+function validate() {
+roll = document.forms['form1'].ContentPlaceHolder1_txtHSSCPIRollNo.value;
+//alert(roll.length);
+range = document.forms['form1'].ContentPlaceHolder1_txtSeries.value;
+var min = range.split('-');
+if (roll < min[0] || roll > min[1]) {
+alert("Please Enter Roll Number Between " + min[0] + " - " + min[1] + ".");
+roll.focus();
+alert("In min and max.");
+return false;
+}
+else
+return true;
+}
+</script> <style type="text/css">
+.auto-style1 {
+font-weight: bold;
+}
+</style> </head> <body> <div class="container pakistan"> <div class="span-24 stickybar" style="position: fixed; top: 0px; display: block;"> <div class="span-16 last stickytitle"> <h1 > <span class="slogo"><a href="http://www.bisebwp.edu.pk/" title="BISE Bahawalpur" style="background-image:url('images/biseMono.png');">&nbsp;</a></span> <span style="font-size:large;"> BOARD OF INTERMEDIATE & SECONDARY EDUCATION, BAHAWALPUR </span> </h1> </div> </div> <div id="menu_menuContainer"> <link rel='stylesheet prefetch' href='manu.css'> <div id="m" style="top: 50px; position: relative; width: 100%; display: block;"> <ul> <li><a href="ChallanForm.aspx">Online Challan</a></li> <li><a href="AffiliationRegistration.aspx">Affiliation</a></li> <li class="dropdown"> <a href="#" class="dropbtn">Results</a> <div class="dropdown-content"> <a href="indexSSC_PII.aspx">SSC Annual Exam</a> <a href="indexSSC_PI.aspx">SSC Part-I (9th)</a> <a href="indexSSC_PIIs.aspx">SSC Supply</a> <a href="indexHSSC_PII.aspx">HSSC Annual Exam</a> <a href="indexHSSC_PI.aspx">HSSC Part-I (1st Year)</a> <a href="indexHSSC_PIIs.aspx">HSSC Special Covid-19</a> </div> </li> </ul> <hr style="/*width: 100%;border-bottom: 3px solid #72be58; z-index:5000;*/"> </div> </div> <form method="post" action="result card.html" onsubmit="javascript:return WebForm_OnSubmit();" id="form1"> <div class="aspNetHidden"> <input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" /> <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" /> <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" /> <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="+Dhps49+/iSwL8vaEk3/z00VFylJKJTpsTnnrhR/pTO50YrTRSzJQgFADFyWfWKVINpHAFCpuFkv9mSSlokmsi805XWJgKnZpz7LGohTlHQeJRd05RE6sNBNX7BfF+kSQB14ttztCvCHCO++A/W8cWHqe7NNy1NcICOXsdgx0NLi6mOFi3DdOLrYlL+u3NrSHAn2UHhYPlodUJj9SIEGVRnbobe27p9MYlgD7xqC5BXtJv2UBFZwvtqM6NbCxYScbv+PRYNZZdIVByr5WaHDwaGRfNJs4vkco6KAnaxi884Ulmla8UcfsiYJbPI819yOkr0mW8iRdPXEeGnr//nS2S7vYTIHRsWb+6AaC8EOaWZTwpjJXSGdFSOAXSXhRVDxlEA2Hgs6brmChYG/GlJn/Vo5d3AA1laFOO0D1pvz99NoGr5q+V4n0xWDu4y9bs4JXk3b84qEPipdZi7NrvJb/Q==" /> </div> <script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+theForm.__EVENTTARGET.value = eventTarget;
+theForm.__EVENTARGUMENT.value = eventArgument;
+theForm.submit();
+}
+}
+//]]> </script> <script src="/Applications/WebResource.axd?d=SbePTx-Skkt8zCB-SVKAfmGdyXFIzVFYOMNbG0OzDQ8pxRq0ZGAsDrF3nYq-O96T4KmcBtPABvRer0HsRBeOqSjAi7rPb0-LyeY3DEye29s1&amp;t=637194151884556210" type="text/javascript"></script> <script src="/Applications/ScriptResource.axd?d=vlAcOTA-WC_D0CItz-3MQDB_Wu4pVKZfnpPQlfAmARAOZh2vZB2BWlBGLCrDQ7NtsNERPE0ZzCVQTjiGSijWop84ZLQWnTxgklUFEydI3skY-y0FkQk93ykkQxHUtsRuyogmDdIUGSJH0BG3Ztyyj-d1CXcuON7v02UX4vYSwUU1&amp;t=ffffffffcd955fc1" type="text/javascript"></script> <script src="/Applications/ScriptResource.axd?d=xtiF0AH6IWI065_crgSFPd6B9LWqamzMLu-9u6tNyRIMGsgv1RlyIu-s1dHReCXBzAPF7lsXEz_KEFmx_Bg1DVJNInFLgZK7SYzVVDGWadR8Vx3dxGZhtPlTLMhfYgDQoO9Tmqgy3tB6WiZmgyOY1E5jre6L6oCh3prUujB8-P9gRU9gxEhcTRAZPiMOhwW70&amp;t=ffffffffcd368728" type="text/javascript"></script> <script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]> </script> <script src="/Applications/ScriptResource.axd?d=mVOehRfsK16g3Ebry-ccoFd2cexJiD43a6w1QO7ay-dLHrIaI2t2odgkdp3h24DKiWPUM_gGpX6QQRfStBjXBV9MidoSJ3KUmNXko67DypPyafucOd8sreX_eniDMIwZZCOg3OtIyjDv9VvRnYiE-9vF2BCcB8ay6V1HsVrkAbIVP7_RJ0hbSWa8XjQdnCeP0&amp;t=ffffffffcd368728" type="text/javascript"></script> <script src="/Applications/ScriptResource.axd?d=UdBLHwtLPtQW2nZYNzh9JIKzxH2Rz1k5zac7dgdz2F5veIMetrUMcNH6iZ_akh0sG8hL4f5MCK5-6Gp7_bhAj1DF_KuK0aZSWZfixgOEf3MTz7air7x1MD6QnhCQUqWI15uwxwrs8rc9t_Ws1wYZDYfE42hQRfdHe7_PjVNCjeg1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script> <script src="/Applications/ScriptResource.axd?d=s2Hl4LPfymvEUrW9mXDu1RDYJ-XttZk_2jRSClIxHifzWDlAF-XDRhCbKDx2lF3a7ECX_xCO8wSuzbUNHit-qO-8C6UeBfhj1i63FZ7sLtF9wp-liOF8LBcUgOiyjS3EvUZckHDZHgNo-7nbiHHxgY9K4KR0dPQym5HQqpZW_oY1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script> <script src="/Applications/ScriptResource.axd?d=iBA5uHOTu9zkYlXrvRip4WEi8EEyPs1LdorNTz63Yrislg2nsgTXWecIolbVsAgiyiSYZF076j9387s0TO3JtwdThE04OkhKuTWPFjELwNY8mNtbowkUXWSI-IXlbHlK1oW9SrOM75W0_7Jkj-grfprw8IevnPTtrD-eynAundBADSpJQFZNteipQHGUuVDyp7UGOiHVsRZFCKMHkHAAIw2&amp;t=ffffffff9b7d03cf" type="text/javascript"></script> <script src="/Applications/WebResource.axd?d=jCedsFmZiMHxDYYxcE1IVhGLg05SHI3oSAhJO1IZuQecJTWfyJ-WFaXHCMDSe2MvSb2h5bbOzMZbG_eRU3lDzMlwMAawDhrK-ZJySFikHx81&amp;t=637194151884556210" type="text/javascript"></script> <script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]> </script> <div style="line-height: 18px;    margin: 0 auto 0 auto;    max-width: 1260px;"> <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['tctl00$MesgBoxUpdatePanel','MesgBoxUpdatePanel'], [], [], 90, 'ctl00');
+//]]> </script> <br /> <br /> <div id="MesgBoxUpdatePanel"> </div> <br /> <div class="clear">
+&nbsp;</div> <div id="ContentPlaceHolder1_panelViewResult"> <table align="center " width="100%"> <tr> <td colspan="4">&nbsp;</td> <td width="10px">&nbsp;</td> <td>&nbsp;</td> </tr> <tr> <td colspan="4"></td> <td>&nbsp;</td> <td>&nbsp;</td> </tr> <tr> <td colspan="6"> <center><h2 style="align-items:center;"><strong>SSC Annual Exam Part-I, 20</strong>2<span class="auto-style1">1</span></h2></center> </td> </tr> <tr> <td colspan="4"> <span id="ContentPlaceHolder1_lbErrorMessage" style="color:Red;font-weight:bold;"></span>
+&nbsp;</td> <td>&nbsp;</td> <td width="120">&nbsp;</td> </tr> <tr> <td width="150">Enter RollNo.</td> <td>&nbsp;</td> <td> <input name="ctl00$ContentPlaceHolder1$txtHSSCPIRollNo" type="text" maxlength="6" id="ContentPlaceHolder1_txtHSSCPIRollNo" class="textbox" onKeyPress="return isNumberKey(event);" class="form-control" placeholder="RollNo." style="width:50%;text-align: center" /> <span id="ContentPlaceHolder1_RequiredFieldValidator1" style="display:none;"><img src='images/Exclamation.gif' title='RollNo!' /></span> <span id="ContentPlaceHolder1_regExpPostCode0" style="visibility:hidden;"><img src='images/Exclamation.gif' title='Must be at least 6 digits.!' /></span> <span id="ContentPlaceHolder1_lbseries" style="color:Red;">500001 - 950221</span> </td> <td>&nbsp;</td> <td>&nbsp;</td> <td> <div> </div> </td> </tr> <tr> <td width="150">&nbsp;</td> <td>&nbsp;</td> <td> <input type="submit" name="ctl00$ContentPlaceHolder1$btnHSSCAPI" value="View Result" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnHSSCAPI&quot;, &quot;&quot;, true, &quot;SearchByRollNo&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_btnHSSCAPI" class="button" style="width:150px;" />
+&nbsp;
+</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> </tr> </table> <table id="ContentPlaceHolder1_Search" align="center " width="100%"> <tr> <td> <table width="50%" align="center"> <tr> <td width="150">&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td width="120">&nbsp;</td> </tr> <tr> <td> <span id="ContentPlaceHolder1_Label1">Enter Student Name</span> </td> <td>&nbsp;</td> <td colspan="2"> <input name="ctl00$ContentPlaceHolder1$txtHSSCName" type="text" maxlength="50" id="ContentPlaceHolder1_txtHSSCName" class="textbox" placeholder="Enter Name of Student" style="width:95%;" /> <span id="ContentPlaceHolder1_RequiredFieldValidator2" style="display:none;"><img src='images/Exclamation.gif' title='Canadidate Name!' /></span> </td> <td></td> <td> <input type="submit" name="ctl00$ContentPlaceHolder1$btnHSSCSearchByName" value="Search Record" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnHSSCSearchByName&quot;, &quot;&quot;, true, &quot;SearchByName&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_btnHSSCSearchByName" class="button" style="width:150px;" /> </td> </tr> </table> </td> </tr> <tr> <td align="Center"> <div> </div> </td> </tr> </table> </div> <table width="100%"> <tr> <td align="Center"> <a id="ContentPlaceHolder1_hidden_link" href="">.</a>
+&nbsp;</td> </tr> <tr> <td align="Center">&nbsp;</td> </tr> </table> </div> <script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ContentPlaceHolder1_RequiredFieldValidator1"), document.getElementById("ContentPlaceHolder1_regExpPostCode0"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator2"));
+//]]> </script> <script type="text/javascript">
+//<![CDATA[
+var ContentPlaceHolder1_RequiredFieldValidator1 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator1"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator1");
+ContentPlaceHolder1_RequiredFieldValidator1.controltovalidate = "ContentPlaceHolder1_txtHSSCPIRollNo";
+ContentPlaceHolder1_RequiredFieldValidator1.errormessage = "RollNo!";
+ContentPlaceHolder1_RequiredFieldValidator1.display = "Dynamic";
+ContentPlaceHolder1_RequiredFieldValidator1.validationGroup = "SearchByRollNo";
+ContentPlaceHolder1_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_RequiredFieldValidator1.initialvalue = "";
+var ContentPlaceHolder1_regExpPostCode0 = document.all ? document.all["ContentPlaceHolder1_regExpPostCode0"] : document.getElementById("ContentPlaceHolder1_regExpPostCode0");
+ContentPlaceHolder1_regExpPostCode0.controltovalidate = "ContentPlaceHolder1_txtHSSCPIRollNo";
+ContentPlaceHolder1_regExpPostCode0.errormessage = "Must be at least 6 digits";
+ContentPlaceHolder1_regExpPostCode0.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+ContentPlaceHolder1_regExpPostCode0.validationexpression = "\\d{6}";
+var ContentPlaceHolder1_RequiredFieldValidator2 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator2"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator2");
+ContentPlaceHolder1_RequiredFieldValidator2.controltovalidate = "ContentPlaceHolder1_txtHSSCName";
+ContentPlaceHolder1_RequiredFieldValidator2.errormessage = "Canadidate Name!";
+ContentPlaceHolder1_RequiredFieldValidator2.display = "Dynamic";
+ContentPlaceHolder1_RequiredFieldValidator2.validationGroup = "SearchByName";
+ContentPlaceHolder1_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_RequiredFieldValidator2.initialvalue = "";
+//]]> </script> <div class="aspNetHidden"> <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C4804528" /> <input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" /> <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="hBL3mZU11Pk6gGME5P3DTlyGcw4/hmRun+4n/yjHy6k3SMlE3jpQ30DqbXBr1dY8LkM1NyKs41Bug3XxHAI8mBwPmtJ1E+vXw5zRRrEn4dxZ2QYqS7j+QitGGIDwEDIl34APe4tbTv0Ak54NtYCV5arz5R4b08AJ9UMUsRb8lbmOI9AxxcAxktp8zwI1WURykUSOm7qo03/NWZP/fQMexA==" /> </div> <script type="text/javascript">
+//<![CDATA[
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+ValidatorOnLoad();
+}
+function ValidatorOnSubmit() {
+if (Page_ValidationActive) {
+return ValidatorCommonOnSubmit();
+}
+else {
+return true;
+}
+}
+WebForm_AutoFocus('ContentPlaceHolder1_txtHSSCPIRollNo');Sys.Application.add_init(function() {
+$create(AjaxControlToolkit.FilteredTextBoxBehavior, {"ValidChars":"0123456789","id":"ContentPlaceHolder1_FilteredTextBoxExtender1"}, null, null, $get("ContentPlaceHolder1_txtHSSCPIRollNo"));
+});
+document.getElementById('ContentPlaceHolder1_RequiredFieldValidator1').dispose = function() {
+Array.remove(Page_Validators, document.getElementById('ContentPlaceHolder1_RequiredFieldValidator1'));
+}
+document.getElementById('ContentPlaceHolder1_regExpPostCode0').dispose = function() {
+Array.remove(Page_Validators, document.getElementById('ContentPlaceHolder1_regExpPostCode0'));
+}
+document.getElementById('ContentPlaceHolder1_RequiredFieldValidator2').dispose = function() {
+Array.remove(Page_Validators, document.getElementById('ContentPlaceHolder1_RequiredFieldValidator2'));
+}
+Sys.Application.add_init(function() {
+$create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":13,"ValidChars":" .-/","id":"ContentPlaceHolder1_FilteredTextBoxExtender6"}, null, null, $get("ContentPlaceHolder1_txtHSSCName"));
+});
+//]]> </script> </form> </div> <br /> <br /> <br /> <br /> <br /> <div id="footer" style="color:white;"> <span style="font-size:medium;">2004-2021 Copy Rights Reserved Board of Intermediate & Secondary Education Bahawalpur</span> <br /> <span style="font-size:small;">Developed & Maintained By Muhammad Toussef Akbar (Web Developer)</span> </div> <script type="text/javascript" src=""></script> <script type="text/javascript" src=""></script> <script type="text/javascript" src=""></script> <script type="text/javascript" src="jquery.min.js"></script> <script type="text/javascript" src="bootstrap.min.js"></script> <script type="text/javascript" src="js/Mindex.js"></script> </body> </html>
