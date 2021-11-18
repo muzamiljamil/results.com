@@ -13,25 +13,8 @@ height: 100%;
 z-index: 9999;
 background: url('images/loader.gif') 50% 50% no-repeat rgb(249,249,249);
 }
-</style> <script type="text/javascript" src="MessageBox.js"></script> <link rel="stylesheet" type="text/css" href="header.css" /><link rel="stylesheet" type="text/css" href="main.css" /><link rel="stylesheet" type="text/css" href="main-green.css" /><link rel="stylesheet" type="text/css" href="UpdatePanel.css" /> <script type="text/javascript"> <!--
-if (self != top) {
-top.location.href = self.location; href;
-}
-//--> </script> <script type="text/javascript" language="javascript">
-function validate() {
-roll = document.forms['form1'].ContentPlaceHolder1_txtHSSCPIRollNo.value;
-//alert(roll.length);
-range = document.forms['form1'].ContentPlaceHolder1_txtSeries.value;
-var min = range.split('-');
-if (roll < min[0] || roll > min[1]) {
-alert("Please Enter Roll Number Between " + min[0] + " - " + min[1] + ".");
-roll.focus();
-alert("In min and max.");
-return false;
-}
-else
-return true;
-}
+</style> <script type="text/javascript" src="MessageBox.js"></script> <link rel="stylesheet" type="text/css" href="header.css" /><link rel="stylesheet" type="text/css" href="main.css" /><link rel="stylesheet" type="text/css" href="main-green.css" /><link rel="stylesheet" type="text/css" href="UpdatePanel.css" /> <script type="text/javascript">
+
 </script> <style type="text/css">
 .auto-style1 {
 font-weight: bold;
